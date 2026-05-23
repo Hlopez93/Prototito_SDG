@@ -9,7 +9,7 @@ productos.forEach(producto=>{
     if(producto.stock == 0){
         alertas.innerHTML += `
         <div class="product-card">
-        ${producto.nombre} tiene agotado
+        ${producto.nombre} agotado
         </div>
         `;
     }else if(producto.stock <= producto.stockMinimo){
