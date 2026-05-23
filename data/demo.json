@@ -1,0 +1,77 @@
+{
+    "productos": [
+        {
+            "nombre": "Jeans Skinny",
+            "categoria": "Jeans",
+            "marca": "Levis",
+            "color": "Negro",
+            "talla": "M",
+            "precio": 250,
+            "stock": 12,
+            "stockMinimo": 5,
+            "imagen": "img/productos/jeans1.jpg"
+        },
+        {
+            "nombre": "Blusa Casual",
+            "categoria": "Blusas",
+            "marca": "Zara",
+            "color": "Blanco",
+            "talla": "S",
+            "precio": 180,
+            "stock": 3,
+            "stockMinimo": 5,
+            "imagen": "img/productos/blusa1.jpg"
+        },
+        {
+            "nombre": "Tenis Urban",
+            "categoria": "Zapatos",
+            "marca": "Nike",
+            "color": "Rojo",
+            "talla": "42",
+            "precio": 550,
+            "stock": 0,
+            "stockMinimo": 2,
+            "imagen": "img/productos/tenis1.jpg"
+        }
+    ],
+    "ventas": [
+        {
+            "cliente": "Carlos López",
+            "producto": "Jeans Skinny",
+            "cantidad": 2,
+            "precio": 250,
+            "total": 500
+        },
+        {
+            "cliente": "María García",
+            "producto": "Blusa Casual",
+            "cantidad": 1,
+            "precio": 180,
+            "total": 180
+        }
+    ],
+    "clientes": [
+        {
+            "nombre": "Carlos López",
+            "telefono": "5555-1111",
+            "correo": "carlos@gmail.com"
+        },
+        {
+            "nombre": "María García",
+            "telefono": "5555-2222",
+            "correo": "maria@gmail.com"
+        }
+    ],
+    "tiendas": [
+        {
+            "nombre": "SDG Moda Zona 1",
+            "direccion": "Ciudad de Guatemala",
+            "telefono": "2222-1111"
+        },
+        {
+            "nombre": "SDG Moda Miraflores",
+            "direccion": "Centro Comercial Miraflores",
+            "telefono": "2222-3333"
+        }
+    ]
+}
